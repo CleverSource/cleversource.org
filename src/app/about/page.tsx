@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ArrowIcon, GitHubIcon, MailIcon } from "@/components/icons";
+import Icons from "@/components/icons";
 
 export const metadata: Metadata = {
   title: "About",
@@ -40,10 +40,10 @@ export default function AboutPage() {
             className="flex w-full border border-cold-purple-200 rounded-lg p-4 no-underline items-center text-white hover:bg-cold-purple-600 transition-all justify-between"
           >
             <div className="flex items-center">
-              <GitHubIcon />
+              <Icons.Github size={20} />
               <div className="ml-3">GitHub</div>
             </div>
-            <ArrowIcon />
+            <Icons.ArrowUpRight size={20} />
           </a>
           <a
             rel="noopener noreferrer"
@@ -52,10 +52,10 @@ export default function AboutPage() {
             className="flex w-full border border-cold-purple-200 rounded-lg p-4 no-underline items-center text-white hover:bg-cold-purple-600 transition-all justify-between"
           >
             <div className="flex items-center">
-              <MailIcon />
+              <Icons.Mail size={20} />
               <div className="ml-3">Email me</div>
             </div>
-            <ArrowIcon />
+            <Icons.ArrowUpRight size={20} />
           </a>
         </div>
       </div>

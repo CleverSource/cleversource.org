@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { GitHubIcon, MailIcon } from "@/components/icons";
+import Icons from "@/components/icons";
 
 export default function HomePage() {
   return (
@@ -24,7 +24,7 @@ export default function HomePage() {
             href="https://github.com/cleversource"
             className="flex items-center gap-2"
           >
-            <GitHubIcon />
+            <Icons.Github size={20} />
             {`CleverSource`}
           </a>
           <a
@@ -33,7 +33,7 @@ export default function HomePage() {
             href="mailto:contact@cleversource.org"
             className="flex items-center gap-2"
           >
-            <MailIcon />
+            <Icons.Mail size={20} />
             {`contact@cleversource.org`}
           </a>
         </div>

@@ -6,7 +6,7 @@ export default function HomePage() {
     <section>
       <h1 className="text-white font-bold text-3xl">ryan</h1>
       <p className="my-5 max-w-[460px] text-cold-purple-100">
-        Hey, I'm Ryan. I'm an 19-year-old software developer.
+        Hey, I'm Ryan. I'm an 20-year-old software developer.
       </p>
       <div className="flex items-start md:items-center my-8 flex-col md:flex-row">
         <Image
